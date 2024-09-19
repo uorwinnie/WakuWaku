@@ -1,0 +1,51 @@
+body {
+  background-image: url("/WakuWaku/image/Burger.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+nav {
+  margin: 0px 35px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-three {
+  margin: auto 50px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 24px;
+}
+.acc {
+  margin: auto 20px;
+  text-align: center;
+  text-decoration: none;
+  border: 2px white solid;
+  border-radius: 10px;
+  font-size: 16px;
+  width: 110px;
+  height: 45px;
+}
+.nav-btn {
+  display: flex;
+}
+.signup {
+  color: white;
+  background-color: transparent;
+}
+.login {
+  color: #000000;
+  background-color: #ffffff;
+}
+.acc:hover {
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.signup:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+.login:hover {
+  color: white;
+  background-color: transparent;
+}
