@@ -1,12 +1,19 @@
-body {
-  background-image: url("/WakuWaku/image/Burger.png");
+@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.landing-page {
+  background: url("/WakuWaku/image/Burger.png") center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: cover;
+  height: 100vh;
 }
 
 nav {
-  margin: 0px 35px;
+  margin: 0px 70px;
   display: flex;
   justify-content: space-between;
 }
@@ -48,4 +55,30 @@ nav {
 .login:hover {
   color: white;
   background-color: transparent;
+}
+.heading {
+  margin: 200px 0px 0px 70px;
+}
+h1 {
+  color: #fafafa;
+  font-family: "Shantell sans", cursive;
+  font-size: 100px;
+  font-weight: 400;
+}
+
+.order_btn {
+  font-size: 22px;
+  padding: 18px 26px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #ffae00;
+  margin-top: 30px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.order_btn:hover {
+  background-color: rgb(255, 174, 0, 0.6);
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  border: 1px solid rgb(255, 174, 0, 0.3);
 }
